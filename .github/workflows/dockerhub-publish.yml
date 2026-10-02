@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       tagname:
-        description: "Tag da imagem Docker"
+        description: Docker tag to publish as newtcv/openfamily:<tagname>
         required: true
         type: string
 
